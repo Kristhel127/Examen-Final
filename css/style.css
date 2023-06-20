@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&family=Nunito+Sans:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+	--f7-theme-color:#ba1924;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color: #C5A2AD;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-negro:#000;
+	--color-gris:#f2eef2;
+	--color-rojo-oscuro:#AB415A;
+	--color-rojo-claro:#fcf0f4;
+	--color-verde:#4cd964;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #201a1a;
+	font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 5px 0;
+	font-family: 'Mali', cursive;
+	font-weight: 400;
+}
+	
+p{
+	margin: 5px 0;
+
+}
+.img-fluid{
+	max-width: 100%;
+}
+#panel-menu .perfil{
+	margin-top: 0px;
+	background-color: #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.perfil h6{
+	font-size: 16px;
+	font-weight: 500;
+}
+#menu-list.list{
+	font-size: 14px;
+}
+#menu-list span{
+	color: #f54748;
+	font-size: 20px;
+}
+
+.block-title{
+	color: var(--color-rojo-oscuro);
+	font-size: 20px;
+	font-weight: 400;
+}
+.block-title-large{
+	color: var(--color-rojo-oscuro);
+	font-size: 36px;
+	font-weight: 400;
+	
+}
+
+.btn-categorie{
+	background-color: var(--color-gris);
+	border-radius: 60px;
+	width: 100px;
+	padding: 10px;
+
+}
+.btn-categorie .nombre{
+	font-size: 15px;
+	text-align: center;
+}
+
+
+.card-products .card{
+	background-color: var(--color-rojo-claro);
+	border: 1px solid #ddd;
+	box-shadow: none;
+	padding: 20px;
+	text-align: center;
+	min-height: 280px;
+}
+.card-products .card h4{
+	font-size: 20px;
+
+}
+
+.center{
+	text-align: center;
+}
+
+.button{
+	text-transform: inherit;
+}
+.button .icon{
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 22px;
+}
+
+
+
+.form-list input,
+.form-list textarea{
+	border: 1px solid #d67124;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.form-list .item-label{
+	color: #d67124;
+}
+.form-list input::placeholder{
+	color: #d67124 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
